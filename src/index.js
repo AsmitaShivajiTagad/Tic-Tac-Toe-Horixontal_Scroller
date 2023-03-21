@@ -1,16 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import reportWebVitals from './reportWebVitals';
-import SignInFrom from './form/SignIn.js';
-// import SignUpFrom from './form/SignUp.js';
-// import SlideImag from './SlideImage/SlideImg';
+import App from './CSS-Assignment/App.js';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <>
-    <SignInFrom/>
-      {/* <SignUpForm/> */}
-      {/* <SlideImag/> */}
+   <App/>
   </>
 );
 
